@@ -1,0 +1,21 @@
+# UV Configuration File
+# https://docs.astral.sh/uv/configuration/
+
+# Cache directory (defaults to platform-specific cache dir)
+cache-dir = ".uv-cache"
+
+# Default index URL (PyPI)
+index-url = "https://pypi.org/simple"
+
+# Compile Python files to bytecode after installation
+compile-bytecode = true
+
+# Strategy for dependency resolution
+resolution = "highest"  # Options: "highest", "lowest-direct"
+
+# Python version preferences
+python-preference = "managed"  # Use UV's managed Python installations
+python-downloads = "automatic"  # Automatically download Python versions if needed
+
+# Global UV settings
+native-tls = true
